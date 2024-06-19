@@ -211,9 +211,9 @@
 </style>
 {% endcompress %}
 
-{% macro top_item(item, rank, rank_text) %}
+{% macro top_item(user, rank, rank_text) %}
     <div class="top-item rank-{{ rank }}">
-        {% if item %}
+        {% if user %}
             <img src="{{ gravatar(user, 128) }}" class="avt" alt="{{ user }}"/>
             <h3>
                 {{ link_user(user) }}
@@ -226,8 +226,8 @@
             <div class="label">
                 <i class="icon trophy"></i>
                 {% if item %}
-                    {% if rating %}
-                        {{ rating }}
+                    {% if user.rating %}
+                        {{ user.rating }}
                     {% else %}
                         0
                     {% endif %}
