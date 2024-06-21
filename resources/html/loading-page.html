@@ -1,1 +1,396 @@
-<style>.preloader{display:flex;font-size:calc(16px + (24 - 16)*(100vw - 320px)/ (1280 - 320));color:#3df1f1;font:1em Dosis,sans-serif;height:100vh;line-height:1.5;perspective:40em}.preloader{animation:tiltSpin 8s linear infinite;flex-direction:column;justify-content:center;align-items:center;margin:auto;width:17em;height:17em}.preloader,.preloader__ring{transform-style:preserve-3d}.preloader__ring{animation-name:spin;animation-duration:4s;animation-timing-function:inherit;animation-iteration-count:inherit;font-size:2em;position:relative;height:3rem;width:1.5rem}.preloader__ring:nth-child(even){animation-direction:reverse}.preloader__sector{font-weight:600;position:absolute;top:0;left:0;text-align:center;text-transform:uppercase;transform:translateZ(7rem)}.preloader__sector,.preloader__sector:empty:before{display:inline-block;width:100%;height:100%}.preloader__sector:empty:before{background:linear-gradient(transparent 45%,currentColor 45% 55%,transparent 55%);content:""}.preloader__sector:nth-child(2){transform:rotateY(12deg) translateZ(7rem)}.preloader__sector:nth-child(3){transform:rotateY(24deg) translateZ(7rem)}.preloader__sector:nth-child(4){transform:rotateY(36deg) translateZ(7rem)}.preloader__sector:nth-child(5){transform:rotateY(48deg) translateZ(7rem)}.preloader__sector:nth-child(6){transform:rotateY(60deg) translateZ(7rem)}.preloader__sector:nth-child(7){transform:rotateY(72deg) translateZ(7rem)}.preloader__sector:nth-child(8){transform:rotateY(84deg) translateZ(7rem)}.preloader__sector:nth-child(9){transform:rotateY(96deg) translateZ(7rem)}.preloader__sector:nth-child(10){transform:rotateY(108deg) translateZ(7rem)}.preloader__sector:nth-child(11){transform:rotateY(120deg) translateZ(7rem)}.preloader__sector:nth-child(12){transform:rotateY(132deg) translateZ(7rem)}.preloader__sector:nth-child(13){transform:rotateY(144deg) translateZ(7rem)}.preloader__sector:nth-child(14){transform:rotateY(156deg) translateZ(7rem)}.preloader__sector:nth-child(15){transform:rotateY(168deg) translateZ(7rem)}.preloader__sector:nth-child(16){transform:rotateY(180deg) translateZ(7rem)}.preloader__sector:nth-child(17){transform:rotateY(192deg) translateZ(7rem)}.preloader__sector:nth-child(18){transform:rotateY(204deg) translateZ(7rem)}.preloader__sector:nth-child(19){transform:rotateY(216deg) translateZ(7rem)}.preloader__sector:nth-child(20){transform:rotateY(228deg) translateZ(7rem)}.preloader__sector:nth-child(21){transform:rotateY(240deg) translateZ(7rem)}.preloader__sector:nth-child(22){transform:rotateY(252deg) translateZ(7rem)}.preloader__sector:nth-child(23){transform:rotateY(264deg) translateZ(7rem)}.preloader__sector:nth-child(24){transform:rotateY(276deg) translateZ(7rem)}.preloader__sector:nth-child(25){transform:rotateY(288deg) translateZ(7rem)}.preloader__sector:nth-child(26){transform:rotateY(300deg) translateZ(7rem)}.preloader__sector:nth-child(27){transform:rotateY(312deg) translateZ(7rem)}.preloader__sector:nth-child(28){transform:rotateY(324deg) translateZ(7rem)}.preloader__sector:nth-child(29){transform:rotateY(336deg) translateZ(7rem)}.preloader__sector:nth-child(30){transform:rotateY(348deg) translateZ(7rem)}@keyframes tiltSpin{from{transform:rotateY(0) rotateX(30deg)}to{transform:rotateY(1turn) rotateX(30deg)}}@keyframes spin{from{transform:rotateY(0)}to{transform:rotateY(1turn)}}</style><div class="preloader"><div class="preloader__ring"><div class="preloader__sector">L</div><div class="preloader__sector">Q</div><div class="preloader__sector">D</div><div class="preloader__sector">O</div><div class="preloader__sector">J</div><div class="preloader__sector"></div><div class="preloader__sector"></div><div class="preloader__sector">.</div><div class="preloader__sector">.</div><div class="preloader__sector">.</div><div class="preloader__sector"></div><div class="preloader__sector"></div><div class="preloader__sector"></div><div class="preloader__sector"></div><div class="preloader__sector"></div><div class="preloader__sector"></div><div class="preloader__sector"></div><div class="preloader__sector"></div><div class="preloader__sector"></div><div class="preloader__sector"></div><div class="preloader__sector"></div><div class="preloader__sector"></div><div class="preloader__sector"></div><div class="preloader__sector"></div><div class="preloader__sector"></div><div class="preloader__sector"></div><div class="preloader__sector"></div><div class="preloader__sector"></div><div class="preloader__sector"></div><div class="preloader__sector"></div></div><div class="preloader__ring"><div class="preloader__sector">L</div><div class="preloader__sector">Q</div><div class="preloader__sector">D</div><div class="preloader__sector">O</div><div class="preloader__sector">J</div><div class="preloader__sector"></div><div class="preloader__sector"></div><div class="preloader__sector"></div><div class="preloader__sector"></div><div class="preloader__sector"></div><div class="preloader__sector"></div><div class="preloader__sector"></div><div class="preloader__sector"></div><div class="preloader__sector"></div><div class="preloader__sector"></div><div class="preloader__sector"></div><div class="preloader__sector"></div><div class="preloader__sector"></div><div class="preloader__sector"></div><div class="preloader__sector"></div><div class="preloader__sector"></div><div class="preloader__sector"></div><div class="preloader__sector"></div><div class="preloader__sector"></div><div class="preloader__sector"></div><div class="preloader__sector"></div><div class="preloader__sector"></div><div class="preloader__sector"></div><div class="preloader__sector"></div><div class="preloader__sector"></div></div></div>
+<style>
+    *,
+*:before,
+*:after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin: -100px;
+  width: 200px;
+  height: 200px;
+  background-color: transparent;
+  border: none;
+}
+.wrapper .box-wrap {
+  width: 70%;
+  height: 70%;
+  margin: calc((100% - 70%) / 2) calc((100% - 70%) / 2);
+  position: relative;
+  transform: rotate(-45deg);
+}
+.wrapper .box-wrap .box {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  background: rgba(135, 0, 0, 0.6);
+  background: linear-gradient(
+    to right,
+    #141562,
+    #486fbc,
+    #eab5a1,
+    #8dd6ff,
+    #4973c9,
+    #d07ca7,
+    #f4915e,
+    #f5919e,
+    #b46f89,
+    #141562,
+    #486fbc
+  );
+  background-position: 0% 50%;
+  background-size: 1000% 1000%;
+  visibility: hidden;
+}
+.wrapper .box-wrap .box.one {
+  animation: moveGradient 15s infinite, oneMove 3.5s infinite;
+}
+.wrapper .box-wrap .box.two {
+  animation: moveGradient 15s infinite, twoMove 3.5s 0.15s infinite;
+}
+.wrapper .box-wrap .box.three {
+  animation: moveGradient 15s infinite, threeMove 3.5s 0.3s infinite;
+}
+.wrapper .box-wrap .box.four {
+  animation: moveGradient 15s infinite, fourMove 3.5s 0.575s infinite;
+}
+.wrapper .box-wrap .box.five {
+  animation: moveGradient 15s infinite, fiveMove 3.5s 0.725s infinite;
+}
+.wrapper .box-wrap .box.six {
+  animation: moveGradient 15s infinite, sixMove 3.5s 0.875s infinite;
+}
+
+@keyframes moveGradient {
+  to {
+    background-position: 100% 50%;
+  }
+}
+
+@keyframes oneMove {
+  0% {
+    visibility: visible;
+    clip-path: inset(0% 35% 70% round 5%);
+    animation-timing-function: cubic-bezier(0.86, 0, 0.07, 1);
+  }
+  14.2857% {
+    clip-path: inset(0% 35% 70% round 5%);
+    animation-timing-function: cubic-bezier(0.86, 0, 0.07, 1);
+  }
+  28.5714% {
+    clip-path: inset(35% round 5%);
+    animation-timing-function: cubic-bezier(0.86, 0, 0.07, 1);
+  }
+  42.8571% {
+    clip-path: inset(35% 70% 35% 0 round 5%);
+    animation-timing-function: cubic-bezier(0.86, 0, 0.07, 1);
+  }
+  57.1428% {
+    clip-path: inset(35% 70% 35% 0 round 5%);
+    animation-timing-function: cubic-bezier(0.86, 0, 0.07, 1);
+  }
+  71.4285% {
+    clip-path: inset(0% 70% 70% 0 round 5%);
+    animation-timing-function: cubic-bezier(0.86, 0, 0.07, 1);
+  }
+  85.7142% {
+    clip-path: inset(0% 70% 70% 0 round 5%);
+    animation-timing-function: cubic-bezier(0.86, 0, 0.07, 1);
+  }
+  100% {
+    clip-path: inset(0% 35% 70% round 5%);
+    animation-timing-function: cubic-bezier(0.86, 0, 0.07, 1);
+  }
+}
+
+@keyframes twoMove {
+  0% {
+    visibility: visible;
+    clip-path: inset(0% 70% 70% 0 round 5%);
+    animation-timing-function: cubic-bezier(0.86, 0, 0.07, 1);
+  }
+  14.2857% {
+    clip-path: inset(0% 70% 70% 0 round 5%);
+    animation-timing-function: cubic-bezier(0.86, 0, 0.07, 1);
+  }
+  28.5714% {
+    clip-path: inset(0% 35% 70% round 5%);
+    animation-timing-function: cubic-bezier(0.86, 0, 0.07, 1);
+  }
+  42.8571% {
+    clip-path: inset(0% 35% 70% round 5%);
+    animation-timing-function: cubic-bezier(0.86, 0, 0.07, 1);
+  }
+  57.1428% {
+    clip-path: inset(35% round 5%);
+    animation-timing-function: cubic-bezier(0.86, 0, 0.07, 1);
+  }
+  71.4285% {
+    clip-path: inset(35% 70% 35% 0 round 5%);
+    animation-timing-function: cubic-bezier(0.86, 0, 0.07, 1);
+  }
+  85.7142% {
+    clip-path: inset(35% 70% 35% 0 round 5%);
+    animation-timing-function: cubic-bezier(0.86, 0, 0.07, 1);
+  }
+  100% {
+    clip-path: inset(0% 70% 70% 0 round 5%);
+    animation-timing-function: cubic-bezier(0.86, 0, 0.07, 1);
+  }
+}
+
+@keyframes threeMove {
+  0% {
+    visibility: visible;
+    clip-path: inset(35% 70% 35% 0 round 5%);
+    animation-timing-function: cubic-bezier(0.86, 0, 0.07, 1);
+  }
+  14.2857% {
+    clip-path: inset(35% 70% 35% 0 round 5%);
+    animation-timing-function: cubic-bezier(0.86, 0, 0.07, 1);
+  }
+  28.5714% {
+    clip-path: inset(0% 70% 70% 0 round 5%);
+    animation-timing-function: cubic-bezier(0.86, 0, 0.07, 1);
+  }
+  42.8571% {
+    clip-path: inset(0% 70% 70% 0 round 5%);
+    animation-timing-function: cubic-bezier(0.86, 0, 0.07, 1);
+  }
+  57.1428% {
+    clip-path: inset(0% 35% 70% round 5%);
+    animation-timing-function: cubic-bezier(0.86, 0, 0.07, 1);
+  }
+  71.4285% {
+    clip-path: inset(0% 35% 70% round 5%);
+    animation-timing-function: cubic-bezier(0.86, 0, 0.07, 1);
+  }
+  85.7142% {
+    clip-path: inset(35% round 5%);
+    animation-timing-function: cubic-bezier(0.86, 0, 0.07, 1);
+  }
+  100% {
+    clip-path: inset(35% 70% 35% 0 round 5%);
+    animation-timing-function: cubic-bezier(0.86, 0, 0.07, 1);
+  }
+}
+
+@keyframes fourMove {
+  0% {
+    visibility: visible;
+    clip-path: inset(35% 0% 35% 70% round 5%);
+    animation-timing-function: cubic-bezier(0.86, 0, 0.07, 1);
+  }
+  14.2857% {
+    clip-path: inset(35% 0% 35% 70% round 5%);
+    animation-timing-function: cubic-bezier(0.86, 0, 0.07, 1);
+  }
+  28.5714% {
+    clip-path: inset(35% round 5%);
+    animation-timing-function: cubic-bezier(0.86, 0, 0.07, 1);
+  }
+  42.8571% {
+    clip-path: inset(70% 35% 0% 35% round 5%);
+    animation-timing-function: cubic-bezier(0.86, 0, 0.07, 1);
+  }
+  57.1428% {
+    clip-path: inset(70% 35% 0% 35% round 5%);
+    animation-timing-function: cubic-bezier(0.86, 0, 0.07, 1);
+  }
+  71.4285% {
+    clip-path: inset(70% 0 0 70% round 5%);
+    animation-timing-function: cubic-bezier(0.86, 0, 0.07, 1);
+  }
+  85.7142% {
+    clip-path: inset(70% 0 0 70% round 5%);
+    animation-timing-function: cubic-bezier(0.86, 0, 0.07, 1);
+  }
+  100% {
+    clip-path: inset(35% 0% 35% 70% round 5%);
+    animation-timing-function: cubic-bezier(0.86, 0, 0.07, 1);
+  }
+}
+
+@keyframes fiveMove {
+  0% {
+    visibility: visible;
+    clip-path: inset(70% 0 0 70% round 5%);
+    animation-timing-function: cubic-bezier(0.86, 0, 0.07, 1);
+  }
+  14.2857% {
+    clip-path: inset(70% 0 0 70% round 5%);
+    animation-timing-function: cubic-bezier(0.86, 0, 0.07, 1);
+  }
+  28.5714% {
+    clip-path: inset(35% 0% 35% 70% round 5%);
+    animation-timing-function: cubic-bezier(0.86, 0, 0.07, 1);
+  }
+  42.8571% {
+    clip-path: inset(35% 0% 35% 70% round 5%);
+    animation-timing-function: cubic-bezier(0.86, 0, 0.07, 1);
+  }
+  57.1428% {
+    clip-path: inset(35% round 5%);
+    animation-timing-function: cubic-bezier(0.86, 0, 0.07, 1);
+  }
+  71.4285% {
+    clip-path: inset(70% 35% 0% 35% round 5%);
+    animation-timing-function: cubic-bezier(0.86, 0, 0.07, 1);
+  }
+  85.7142% {
+    clip-path: inset(70% 35% 0% 35% round 5%);
+    animation-timing-function: cubic-bezier(0.86, 0, 0.07, 1);
+  }
+  100% {
+    clip-path: inset(70% 0 0 70% round 5%);
+    animation-timing-function: cubic-bezier(0.86, 0, 0.07, 1);
+  }
+}
+
+@keyframes sixMove {
+  0% {
+    visibility: visible;
+    clip-path: inset(70% 35% 0% 35% round 5%);
+    animation-timing-function: cubic-bezier(0.86, 0, 0.07, 1);
+  }
+  14.2857% {
+    clip-path: inset(70% 35% 0% 35% round 5%);
+    animation-timing-function: cubic-bezier(0.86, 0, 0.07, 1);
+  }
+  28.5714% {
+    clip-path: inset(70% 0 0 70% round 5%);
+    animation-timing-function: cubic-bezier(0.86, 0, 0.07, 1);
+  }
+  42.8571% {
+    clip-path: inset(70% 0 0 70% round 5%);
+    animation-timing-function: cubic-bezier(0.86, 0, 0.07, 1);
+  }
+  57.1428% {
+    clip-path: inset(35% 0% 35% 70% round 5%);
+    animation-timing-function: cubic-bezier(0.86, 0, 0.07, 1);
+  }
+  71.4285% {
+    clip-path: inset(35% 0% 35% 70% round 5%);
+    animation-timing-function: cubic-bezier(0.86, 0, 0.07, 1);
+  }
+  85.7142% {
+    clip-path: inset(35% round 5%);
+    animation-timing-function: cubic-bezier(0.86, 0, 0.07, 1);
+  }
+  100% {
+    clip-path: inset(70% 35% 0% 35% round 5%);
+    animation-timing-function: cubic-bezier(0.86, 0, 0.07, 1);
+  }
+}
+
+:root {
+    --effect: hover 1s linear infinite;
+  }
+  *{
+     margin:0;
+  }
+  
+  body {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  div {
+    text-align: center;
+  }
+  
+  p {
+    display: inline-block;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 4em;
+    font-family: arial;
+    font-weight: 600;
+    transform: scale(.5);
+    color: #026599;
+    -webkit-text-stroke: 2px gray;
+  }
+  
+  p:nth-child(1) {
+    animation: var(--effect);
+  }
+  
+  p:nth-child(2) {
+    animation: var(--effect) .125s;
+  }
+  
+  p:nth-child(3) {
+    animation: var(--effect) .25s;
+  }
+  
+  p:nth-child(4) {
+    animation: var(--effect) .375s;
+  }
+  
+  p:nth-child(5) {
+    animation: var(--effect) .5s;
+  }
+  
+  p:nth-child(6) {
+    animation: var(--effect) .675s;
+  }
+  
+  p:nth-child(7) {
+    animation: var(--effect) .75s;
+  }
+  
+  @keyframes hover {
+    0% {
+      transform: scale(.5);
+      color: #026599;
+      -webkit-text-stroke: 2px gray;
+    }
+  
+    20% {
+      transform: scale(1);
+      color: pink;
+      -webkit-text-stroke: 3px red;
+      filter: drop-shadow(0 0 1px black)drop-shadow(0 0 1px black)drop-shadow(0 0 3px red)drop-shadow(0 0 5px red)hue-rotate(10turn);
+    }
+  
+    50% {
+      transform: scale(.5);
+      color: #121212;
+      -webkit-text-stroke: 2px gray;
+    }
+  
+  
+  }
+  
+</style>
+
+<div class="wrapper">
+    <div class="box-wrap">
+      <div class="box one"></div>
+      <div class="box two"></div>
+      <div class="box three"></div>
+      <div class="box four"></div>
+      <div class="box five"></div>
+      <div class="box six"></div>
+    </div>
+  </div>
+  
+  <div>
+    <p>C</p>
+    <p>L</p>
+    <p>B</p>
+    <p>T</p>
+    <p>H</p>
+    <p>O</p>
+    <p>J</p>
+  </div>

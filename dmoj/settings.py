@@ -30,10 +30,10 @@ DEBUG = True
 ALLOWED_HOSTS = []
 
 SITE_ID = 1
-SITE_NAME = "LQDOJ"
-SITE_LONG_NAME = "LQDOJ: Le Quy Don Online Judge"
+SITE_NAME = "CLBTHOJ"
+SITE_LONG_NAME = "CLB TIN HỌC Online Judge"
 SITE_ADMIN_EMAIL = False
-SITE_DOMAIN = "lqdoj.edu.vn"
+SITE_DOMAIN = "clbthoj.clbtinhocued.me"
 
 DMOJ_REQUIRE_STAFF_2FA = True
 
@@ -151,7 +151,7 @@ else:
 
     WPADMIN = {
         "admin": {
-            "title": "LQDOJ Admin",
+            "title": "CLBTH Admin",
             "menu": {
                 "top": "wpadmin.menu.menus.BasicTopMenu",
                 "left": "wpadmin.menu.custom.CustomModelLeftMenuWithDashboard",
@@ -387,8 +387,8 @@ BRIDGED_AUTO_CREATE_JUDGE = False
 
 # Event Server configuration
 EVENT_DAEMON_USE = False
-EVENT_DAEMON_POST = "ws://localhost:9997/"
-EVENT_DAEMON_GET = "ws://localhost:9996/"
+EVENT_DAEMON_POST = "ws://localhost:15101/"
+EVENT_DAEMON_GET = "ws://localhost:15100/"
 EVENT_DAEMON_POLL = "/channels/"
 EVENT_DAEMON_KEY = None
 EVENT_DAEMON_AMQP_EXCHANGE = "dmoj-events"
@@ -461,7 +461,7 @@ JUDGE_AMQP_PATH = None
 
 MOSS_API_KEY = None
 
-CELERY_WORKER_HIJACK_ROOT_LOGGER = False
+CELERY_WORKER_HIJACK_ROOT_LOGGER = True
 
 
 TESTCASE_VISIBLE_LENGTH = 64
@@ -476,6 +476,8 @@ ML_OUTPUT_PATH = None
 
 # Use subdomain for organizations
 USE_SUBDOMAIN = False
+
+broker_connection_retry_on_startup = True
 
 # Chat
 CHAT_SECRET_KEY = "QUdVFsxk6f5-Hd8g9BXv81xMqvIZFRqMl-KbRzztW-U="
