@@ -583,18 +583,39 @@ $(function() {
     });
 
     $(window).on('beforeunload', function() {
+        const storageLimit = 5;
+        const sessionStorageKey = 'oj-content-keys';
+
         let key = `oj-content-${window.location.href}`;
         let $contentClone = $('#content').clone();
         $contentClone.find('.select2').remove();
         $contentClone.find('.select2-hidden-accessible').removeClass('select2-hidden-accessible');
         $contentClone.find('.noUi-base').remove();
         $contentClone.find('.wmd-button-row').remove();
-        sessionStorage.setItem(key, JSON.stringify({
-          "html": $contentClone.html(),
-          "page": window.page,
-          "has_next_page": window.has_next_page,
-          "scrollOffset": $(window).scrollTop(),
-        }));
+
+        let contentData = JSON.stringify({
+            "html": $contentClone.html(),
+            "page": window.page,
+            "has_next_page": window.has_next_page,
+            "scrollOffset": $(window).scrollTop(),
+        });
+
+        let keys = JSON.parse(sessionStorage.getItem(sessionStorageKey)) || [];
+
+        // Remove the existing key if it exists
+        if (keys.includes(key)) {
+            keys = keys.filter(k => k !== key);
+        }
+
+        keys.push(key);
+
+        if (keys.length > storageLimit) {
+            let oldestKey = keys.shift();
+            sessionStorage.removeItem(oldestKey);
+        }
+
+        sessionStorage.setItem(sessionStorageKey, JSON.stringify(keys));
+        sessionStorage.setItem(key, contentData);
     });
     if (window.performance && 
       window.performance.navigation.type 
