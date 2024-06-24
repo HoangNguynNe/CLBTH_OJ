@@ -1232,6 +1232,8 @@ class ContestRanking(ContestRankingBase):
     def setup_filters(self):
         if self.request.profile:
             self.friend_only = bool(self.request.GET.get("friend") == "1")
+        else:
+            self.friend_only = False
         self.include_virtual = bool(
             self.request.GET.get("virtual", self._get_default_include_virtual()) == "1"
         )
