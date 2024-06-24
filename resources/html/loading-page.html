@@ -1,12 +1,4 @@
 <style>
-    *,
-*:before,
-*:after {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
-
 .wrapper {
   position: absolute;
   left: 50%;
@@ -289,25 +281,6 @@
     animation-timing-function: cubic-bezier(0.86, 0, 0.07, 1);
   }
 }
-
-:root {
-    --effect: hover 1s linear infinite;
-  }
-  *{
-     margin:0;
-  }
-  
-  body {
-    display: flex;
-    width: 100vw;
-    height: 100vh;
-    align-items: center;
-    justify-content: center;
-  }
-  
-  div {
-    text-align: center;
-  }
   
   p {
     display: inline-block;
@@ -385,7 +358,8 @@
     </div>
   </div>
   
-  <div>
+  <div style="display: flex; align-items:center; width: 100vw;
+    height: 100vh; justify-content: center; --effect: hover 1s linear infinite;">
     <p>C</p>
     <p>L</p>
     <p>B</p>
