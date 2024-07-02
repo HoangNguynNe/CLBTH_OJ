@@ -59,6 +59,9 @@
       <link rel="stylesheet" type="text/css" href="{{ static('libs/select2/select2.css') }}">
       <link rel="stylesheet" type="text/css" href="{{ static('icofont/icofont.min.css') }}">
     {% endcompress %}
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code&family=Noto+Sans&display=swap" rel="stylesheet">
     <link rel="canonical"
       href="{{ DMOJ_SCHEME }}://{{ DMOJ_CANONICAL|default(site.domain) }}{{ request.get_full_path() }}">
     {% if request.user.is_impersonate %}
@@ -68,7 +71,7 @@
         }
       </style>
     {% endif %}
-    {% block media %}{% endblock %}
+
     {% if use_darkmode %}
       <link rel="stylesheet" href="{{ static('darkmode.css') }}">
       <link rel="stylesheet" href="{{ static('darkmode-svg.css') }}">
@@ -211,7 +214,7 @@
                 <div class="dropdown-item"><i class="fa fa-gear"></i> {{ _('Settings') }}</div>
               </a>
               {% if request.user.is_impersonate %}
-                <a href="{{ url('impersonate-stop') }}">
+                <a href="{{ url('impersonate-stop') }}" data-force_new_page="1">
                   <div class="dropdown-item"><i class="fa fa-eye"></i> {{_('Stop impersonating')}}</div>
                 </a>
               {% else %}
@@ -261,6 +264,9 @@
       </div>
     {% endif %}
     <div id="page-container">
+      <div id="media">
+        {% block media %}{% endblock %}
+      </div>
       <noscript>
         <div id="noscript">{{ _('This site works best with JavaScript enabled.') }}</div>
       </noscript>
@@ -303,8 +309,9 @@
           });
         </script>
       {% endcompress %}
-
-      {% block js_media %}{% endblock %}
+      <div id="js_media">
+        {% block js_media %}{% endblock %}
+      </div>
       {% if request.in_contest %}
         <script>$(function () {
           if ($("#contest-time-remaining").length) {
@@ -379,10 +386,9 @@
         {{ misc_config.analytics|safe }}
       {% endif %}
 
-      <div id="extra_js">
-        {% block extra_js %}{% endblock %}
+      <div id="bodyend">
+        {% block bodyend %}{% endblock %}
       </div>
-      {% block bodyend %}{% endblock %}
       <script src="{{ static('katex_config.js') }}"></script>
       {% include "katex-load.html" %}
       {% block footer %}
@@ -627,8 +633,5 @@
           </footer>
       {% endblock %}
     </div>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Fira+Code&family=Noto+Sans&display=swap" rel="stylesheet">
   </body>
 </html>

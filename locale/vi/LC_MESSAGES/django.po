@@ -3,10 +3,14 @@ msgstr ""
 "Project-Id-Version: lqdoj2\n"
 "Report-Msgid-Bugs-To: \n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "POT-Creation-Date: 2024-06-19 05:23+0700\n"
 =======
 "POT-Creation-Date: 2024-06-24 12:35+0700\n"
 >>>>>>> 500c5549e62aedf94e606ca4245483ffe26cd71e
+=======
+"POT-Creation-Date: 2024-06-24 12:35+0700\n"
+>>>>>>> 5537ef552252d3d1f5fab056e1c4d6c2b0ccba4b
 "PO-Revision-Date: 2021-07-20 03:44\n"
 "Last-Translator: Icyene\n"
 "Language-Team: Vietnamese\n"
@@ -51,10 +55,14 @@ msgid "Recent"
 msgstr "Gần đây"
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: chat_box/views.py:448 templates/base.html:196
 =======
 #: chat_box/views.py:448 templates/base.html:195
 >>>>>>> 500c5549e62aedf94e606ca4245483ffe26cd71e
+=======
+#: chat_box/views.py:448 templates/base.html:195
+>>>>>>> 5537ef552252d3d1f5fab056e1c4d6c2b0ccba4b
 #: templates/comments/content-list.html:72
 #: templates/contest/contest-list-tabs.html:6
 #: templates/contest/ranking-table.html:52 templates/course/left_sidebar.html:8
@@ -96,10 +104,14 @@ msgid "Login"
 msgstr "Đăng nhập"
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: dmoj/urls.py:221 templates/base.html:118
 =======
 #: dmoj/urls.py:221 templates/base.html:117
 >>>>>>> 500c5549e62aedf94e606ca4245483ffe26cd71e
+=======
+#: dmoj/urls.py:221 templates/base.html:117
+>>>>>>> 5537ef552252d3d1f5fab056e1c4d6c2b0ccba4b
 #: templates/course/left_sidebar.html:2
 #: templates/organization/org-left-sidebar.html:2
 msgid "Home"
@@ -139,10 +151,14 @@ msgid "Problem"
 msgstr "Bài tập"
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: judge/admin/contest.py:183 templates/base.html:211
 =======
 #: judge/admin/contest.py:183 templates/base.html:210
 >>>>>>> 500c5549e62aedf94e606ca4245483ffe26cd71e
+=======
+#: judge/admin/contest.py:183 templates/base.html:210
+>>>>>>> 5537ef552252d3d1f5fab056e1c4d6c2b0ccba4b
 msgid "Settings"
 msgstr "Cài đặt"
 
@@ -214,10 +230,14 @@ msgid "username"
 msgstr "tên đăng nhập"
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: judge/admin/contest.py:540 templates/base.html:251
 =======
 #: judge/admin/contest.py:540 templates/base.html:250
 >>>>>>> 500c5549e62aedf94e606ca4245483ffe26cd71e
+=======
+#: judge/admin/contest.py:540 templates/base.html:250
+>>>>>>> 5537ef552252d3d1f5fab056e1c4d6c2b0ccba4b
 msgid "virtual"
 msgstr "ảo"
 
@@ -288,10 +308,14 @@ msgstr "Giới hạn"
 
 #: judge/admin/problem.py:232 judge/admin/submission.py:351
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: templates/base.html:162 templates/stats/tab.html:4
 =======
 #: templates/base.html:161 templates/stats/tab.html:4
 >>>>>>> 500c5549e62aedf94e606ca4245483ffe26cd71e
+=======
+#: templates/base.html:161 templates/stats/tab.html:4
+>>>>>>> 5537ef552252d3d1f5fab056e1c4d6c2b0ccba4b
 #: templates/submission/list.html:346
 msgid "Language"
 msgstr "Ngôn ngữ"
@@ -2817,12 +2841,17 @@ msgid "You already voted."
 msgstr "Bạn đã vote."
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: judge/views/comment.py:267 judge/views/organization.py:872
 #: judge/views/organization.py:1022 judge/views/organization.py:1201
 =======
 #: judge/views/comment.py:267 judge/views/organization.py:874
 #: judge/views/organization.py:1024 judge/views/organization.py:1203
 >>>>>>> 500c5549e62aedf94e606ca4245483ffe26cd71e
+=======
+#: judge/views/comment.py:267 judge/views/organization.py:874
+#: judge/views/organization.py:1024 judge/views/organization.py:1203
+>>>>>>> 5537ef552252d3d1f5fab056e1c4d6c2b0ccba4b
 msgid "Edited from site"
 msgstr "Chỉnh sửa từ web"
 
@@ -2848,6 +2877,7 @@ msgid "Posted comment"
 msgstr "Bình luận đã đăng"
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: judge/views/contests.py:125 judge/views/contests.py:463
 #: judge/views/contests.py:468 judge/views/contests.py:768
 msgid "No such contest"
@@ -2862,15 +2892,27 @@ msgstr "Không có contest nào như vậy"
 
 #: judge/views/contests.py:125 judge/views/contests.py:471
 >>>>>>> 500c5549e62aedf94e606ca4245483ffe26cd71e
+=======
+#: judge/views/contests.py:124 judge/views/contests.py:470
+#: judge/views/contests.py:475 judge/views/contests.py:775
+msgid "No such contest"
+msgstr "Không có contest nào như vậy"
+
+#: judge/views/contests.py:125 judge/views/contests.py:471
+>>>>>>> 5537ef552252d3d1f5fab056e1c4d6c2b0ccba4b
 #, python-format
 msgid "Could not find a contest with the key \"%s\"."
 msgstr "Không tìm thấy kỳ thi với mã \"%s\"."
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: judge/views/contests.py:154 judge/views/contests.py:1555
 =======
 #: judge/views/contests.py:153 judge/views/contests.py:1550
 >>>>>>> 500c5549e62aedf94e606ca4245483ffe26cd71e
+=======
+#: judge/views/contests.py:153 judge/views/contests.py:1550
+>>>>>>> 5537ef552252d3d1f5fab056e1c4d6c2b0ccba4b
 #: judge/views/stats.py:178 templates/contest/list.html:170
 #: templates/contest/list.html:212 templates/contest/list.html:249
 #: templates/contest/list.html:283
@@ -2880,34 +2922,39 @@ msgid "Contests"
 msgstr "Kỳ thi"
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: judge/views/contests.py:324
+=======
+#: judge/views/contests.py:331
+>>>>>>> 5537ef552252d3d1f5fab056e1c4d6c2b0ccba4b
 msgid "Start time (asc.)"
 msgstr "Thời gian bắt đầu (tăng)"
 
-#: judge/views/contests.py:325
+#: judge/views/contests.py:332
 msgid "Start time (desc.)"
 msgstr "Thời gian bắt đầu (giảm)"
 
-#: judge/views/contests.py:326 judge/views/organization.py:311
+#: judge/views/contests.py:333 judge/views/organization.py:313
 msgid "Name (asc.)"
 msgstr "Tên (tăng)"
 
-#: judge/views/contests.py:327 judge/views/organization.py:312
+#: judge/views/contests.py:334 judge/views/organization.py:314
 msgid "Name (desc.)"
 msgstr "Tên (giảm)"
 
-#: judge/views/contests.py:328
+#: judge/views/contests.py:335
 msgid "User count (asc.)"
 msgstr "Số lượng tham gia (tăng)"
 
-#: judge/views/contests.py:329
+#: judge/views/contests.py:336
 msgid "User count (desc.)"
 msgstr "Số lượng tham gia (giảm)"
 
-#: judge/views/contests.py:468
+#: judge/views/contests.py:475
 msgid "Could not find such contest."
 msgstr "Không tìm thấy kỳ thi nào như vậy."
 
+<<<<<<< HEAD
 #: judge/views/contests.py:476
 =======
 #: judge/views/contests.py:331
@@ -2940,19 +2987,27 @@ msgstr "Không tìm thấy kỳ thi nào như vậy."
 
 #: judge/views/contests.py:483
 >>>>>>> 500c5549e62aedf94e606ca4245483ffe26cd71e
+=======
+#: judge/views/contests.py:483
+>>>>>>> 5537ef552252d3d1f5fab056e1c4d6c2b0ccba4b
 #, python-format
 msgid "Access to contest \"%s\" denied"
 msgstr "Truy cập tới kỳ thi \"%s\" bị từ chối"
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: judge/views/contests.py:554
+=======
+#: judge/views/contests.py:561
+>>>>>>> 5537ef552252d3d1f5fab056e1c4d6c2b0ccba4b
 msgid "Clone Contest"
 msgstr "Nhân bản kỳ thi"
 
-#: judge/views/contests.py:646
+#: judge/views/contests.py:653
 msgid "Contest not ongoing"
 msgstr "Kỳ thi đang không diễn ra"
 
+<<<<<<< HEAD
 #: judge/views/contests.py:647
 =======
 #: judge/views/contests.py:561
@@ -2965,10 +3020,14 @@ msgstr "Kỳ thi đang không diễn ra"
 
 #: judge/views/contests.py:654
 >>>>>>> 500c5549e62aedf94e606ca4245483ffe26cd71e
+=======
+#: judge/views/contests.py:654
+>>>>>>> 5537ef552252d3d1f5fab056e1c4d6c2b0ccba4b
 #, python-format
 msgid "\"%s\" is not currently ongoing."
 msgstr "\"%s\" kỳ thi đang không diễn ra."
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 #: judge/views/contests.py:660
 msgid "Banned from joining"
@@ -2982,29 +3041,45 @@ msgstr "Bị cấm tham gia"
 
 #: judge/views/contests.py:669
 >>>>>>> 500c5549e62aedf94e606ca4245483ffe26cd71e
+=======
+#: judge/views/contests.py:667
+msgid "Banned from joining"
+msgstr "Bị cấm tham gia"
+
+#: judge/views/contests.py:669
+>>>>>>> 5537ef552252d3d1f5fab056e1c4d6c2b0ccba4b
 msgid ""
 "You have been declared persona non grata for this contest. You are "
 "permanently barred from joining this contest."
 msgstr "Bạn không được phép tham gia kỳ thi này."
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: judge/views/contests.py:752
 =======
 #: judge/views/contests.py:759
 >>>>>>> 500c5549e62aedf94e606ca4245483ffe26cd71e
+=======
+#: judge/views/contests.py:759
+>>>>>>> 5537ef552252d3d1f5fab056e1c4d6c2b0ccba4b
 #, python-format
 msgid "Enter access code for \"%s\""
 msgstr "Nhập mật khẩu truy cập cho \"%s\""
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: judge/views/contests.py:769
 =======
 #: judge/views/contests.py:776
 >>>>>>> 500c5549e62aedf94e606ca4245483ffe26cd71e
+=======
+#: judge/views/contests.py:776
+>>>>>>> 5537ef552252d3d1f5fab056e1c4d6c2b0ccba4b
 #, python-format
 msgid "You are not in contest \"%s\"."
 msgstr "Bạn không ở trong kỳ thi \"%s\"."
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 #: judge/views/contests.py:792
 msgid "ContestCalendar requires integer year and month"
@@ -3018,10 +3093,18 @@ msgstr "Lịch thi yêu cầu giá trị cho năm và tháng là số nguyên"
 
 #: judge/views/contests.py:857
 >>>>>>> 500c5549e62aedf94e606ca4245483ffe26cd71e
+=======
+#: judge/views/contests.py:799
+msgid "ContestCalendar requires integer year and month"
+msgstr "Lịch thi yêu cầu giá trị cho năm và tháng là số nguyên"
+
+#: judge/views/contests.py:857
+>>>>>>> 5537ef552252d3d1f5fab056e1c4d6c2b0ccba4b
 #, python-format
 msgid "Contests in %(month)s"
 msgstr "Các kỳ thi trong %(month)s"
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 #: judge/views/contests.py:851
 msgid "F Y"
@@ -3035,19 +3118,31 @@ msgstr "F Y"
 
 #: judge/views/contests.py:918
 >>>>>>> 500c5549e62aedf94e606ca4245483ffe26cd71e
+=======
+#: judge/views/contests.py:858
+msgid "F Y"
+msgstr "F Y"
+
+#: judge/views/contests.py:918
+>>>>>>> 5537ef552252d3d1f5fab056e1c4d6c2b0ccba4b
 #, python-format
 msgid "%s Statistics"
 msgstr "%s Thống kê"
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: judge/views/contests.py:1237
 =======
 #: judge/views/contests.py:1197
 >>>>>>> 500c5549e62aedf94e606ca4245483ffe26cd71e
+=======
+#: judge/views/contests.py:1197
+>>>>>>> 5537ef552252d3d1f5fab056e1c4d6c2b0ccba4b
 #, python-format
 msgid "%s Rankings"
 msgstr "%s Bảng điểm"
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 #: judge/views/contests.py:1248
 msgid "???"
@@ -3061,28 +3156,44 @@ msgstr "???"
 
 #: judge/views/contests.py:1270
 >>>>>>> 500c5549e62aedf94e606ca4245483ffe26cd71e
+=======
+#: judge/views/contests.py:1208
+msgid "???"
+msgstr "???"
+
+#: judge/views/contests.py:1270
+>>>>>>> 5537ef552252d3d1f5fab056e1c4d6c2b0ccba4b
 #, python-format
 msgid "Your participation in %s"
 msgstr "Lần tham gia trong %s"
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: judge/views/contests.py:1276
 =======
 #: judge/views/contests.py:1271
 >>>>>>> 500c5549e62aedf94e606ca4245483ffe26cd71e
+=======
+#: judge/views/contests.py:1271
+>>>>>>> 5537ef552252d3d1f5fab056e1c4d6c2b0ccba4b
 #, python-format
 msgid "%s's participation in %s"
 msgstr "Lần tham gia của %s trong %s"
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: judge/views/contests.py:1290
+=======
+#: judge/views/contests.py:1285
+>>>>>>> 5537ef552252d3d1f5fab056e1c4d6c2b0ccba4b
 msgid "Live"
 msgstr "Trực tiếp"
 
-#: judge/views/contests.py:1308 templates/contest/contest-tabs.html:21
+#: judge/views/contests.py:1303 templates/contest/contest-tabs.html:21
 msgid "Participation"
 msgstr "Lần tham gia"
 
+<<<<<<< HEAD
 #: judge/views/contests.py:1357
 =======
 #: judge/views/contests.py:1285
@@ -3095,28 +3206,40 @@ msgstr "Lần tham gia"
 
 #: judge/views/contests.py:1352
 >>>>>>> 500c5549e62aedf94e606ca4245483ffe26cd71e
+=======
+#: judge/views/contests.py:1352
+>>>>>>> 5537ef552252d3d1f5fab056e1c4d6c2b0ccba4b
 #, python-format
 msgid "%s MOSS Results"
 msgstr "%s Kết quả MOSS"
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: judge/views/contests.py:1393
 =======
 #: judge/views/contests.py:1388
 >>>>>>> 500c5549e62aedf94e606ca4245483ffe26cd71e
+=======
+#: judge/views/contests.py:1388
+>>>>>>> 5537ef552252d3d1f5fab056e1c4d6c2b0ccba4b
 #, python-format
 msgid "Running MOSS for %s..."
 msgstr "Đang chạy MOSS cho %s..."
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: judge/views/contests.py:1416
 =======
 #: judge/views/contests.py:1411
 >>>>>>> 500c5549e62aedf94e606ca4245483ffe26cd71e
+=======
+#: judge/views/contests.py:1411
+>>>>>>> 5537ef552252d3d1f5fab056e1c4d6c2b0ccba4b
 #, python-format
 msgid "Contest tag: %s"
 msgstr "Nhãn kỳ thi: %s"
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 #: judge/views/contests.py:1431 judge/views/ticket.py:67
 msgid "Issue description"
@@ -3130,6 +3253,13 @@ msgstr "Mô tả vấn đề"
 
 #: judge/views/contests.py:1469
 >>>>>>> 500c5549e62aedf94e606ca4245483ffe26cd71e
+=======
+#: judge/views/contests.py:1426 judge/views/ticket.py:67
+msgid "Issue description"
+msgstr "Mô tả vấn đề"
+
+#: judge/views/contests.py:1469
+>>>>>>> 5537ef552252d3d1f5fab056e1c4d6c2b0ccba4b
 #, python-format
 msgid "New clarification for %s"
 msgstr "Thông báo mới cho %s"
@@ -3264,14 +3394,19 @@ msgid "You are not allowed to edit this organization."
 msgstr "Bạn không được phép chỉnh sửa tổ chức này."
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: judge/views/organization.py:201 judge/views/organization.py:397
+=======
+#: judge/views/organization.py:201 judge/views/organization.py:399
+>>>>>>> 5537ef552252d3d1f5fab056e1c4d6c2b0ccba4b
 msgid "Can't access organization"
 msgstr "Không thể truy cập nhóm"
 
-#: judge/views/organization.py:202 judge/views/organization.py:398
+#: judge/views/organization.py:202 judge/views/organization.py:400
 msgid "You are not allowed to access this organization."
 msgstr "Bạn không được phép chỉnh sửa tổ chức này."
 
+<<<<<<< HEAD
 #: judge/views/organization.py:245 judge/views/stats.py:184
 =======
 #: judge/views/organization.py:201 judge/views/organization.py:399
@@ -3284,6 +3419,9 @@ msgstr "Bạn không được phép chỉnh sửa tổ chức này."
 
 #: judge/views/organization.py:247 judge/views/stats.py:184
 >>>>>>> 500c5549e62aedf94e606ca4245483ffe26cd71e
+=======
+#: judge/views/organization.py:247 judge/views/stats.py:184
+>>>>>>> 5537ef552252d3d1f5fab056e1c4d6c2b0ccba4b
 #: templates/contest/list.html:77 templates/problem/list-base.html:90
 #: templates/stats/site.html:33 templates/user/user-left-sidebar.html:4
 #: templates/user/user-list-tabs.html:6
@@ -3291,14 +3429,19 @@ msgid "Groups"
 msgstr "Nhóm"
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: judge/views/organization.py:313
+=======
+#: judge/views/organization.py:315
+>>>>>>> 5537ef552252d3d1f5fab056e1c4d6c2b0ccba4b
 msgid "Member count (asc.)"
 msgstr "Số lượng thành viên (tăng)"
 
-#: judge/views/organization.py:314
+#: judge/views/organization.py:316
 msgid "Member count (desc.)"
 msgstr "Số lượng thành viên (giảm)"
 
+<<<<<<< HEAD
 #: judge/views/organization.py:404
 =======
 #: judge/views/organization.py:315
@@ -3311,37 +3454,49 @@ msgstr "Số lượng thành viên (giảm)"
 
 #: judge/views/organization.py:406
 >>>>>>> 500c5549e62aedf94e606ca4245483ffe26cd71e
+=======
+#: judge/views/organization.py:406
+>>>>>>> 5537ef552252d3d1f5fab056e1c4d6c2b0ccba4b
 #, python-format
 msgid "%s Members"
 msgstr "%s Thành viên"
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: judge/views/organization.py:526
 =======
 #: judge/views/organization.py:528
 >>>>>>> 500c5549e62aedf94e606ca4245483ffe26cd71e
+=======
+#: judge/views/organization.py:528
+>>>>>>> 5537ef552252d3d1f5fab056e1c4d6c2b0ccba4b
 #, python-brace-format
 msgid "All submissions in <a href=\"{1}\">{0}</a>"
 msgstr "Bài nộp trong <a href=\"{1}\">{0}</a>"
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: judge/views/organization.py:534 judge/views/submission.py:857
+=======
+#: judge/views/organization.py:536 judge/views/submission.py:857
+>>>>>>> 5537ef552252d3d1f5fab056e1c4d6c2b0ccba4b
 msgid "Submissions in"
 msgstr "Bài nộp trong"
 
-#: judge/views/organization.py:559 judge/views/organization.py:565
-#: judge/views/organization.py:572
+#: judge/views/organization.py:561 judge/views/organization.py:567
+#: judge/views/organization.py:574
 msgid "Joining group"
 msgstr "Tham gia nhóm"
 
-#: judge/views/organization.py:560
+#: judge/views/organization.py:562
 msgid "You are already in the group."
 msgstr "Bạn đã ở trong nhóm."
 
-#: judge/views/organization.py:565
+#: judge/views/organization.py:567
 msgid "This group is not open."
 msgstr "Nhóm này là nhóm kín."
 
+<<<<<<< HEAD
 #: judge/views/organization.py:573
 =======
 #: judge/views/organization.py:536 judge/views/submission.py:857
@@ -3363,10 +3518,14 @@ msgstr "Nhóm này là nhóm kín."
 
 #: judge/views/organization.py:575
 >>>>>>> 500c5549e62aedf94e606ca4245483ffe26cd71e
+=======
+#: judge/views/organization.py:575
+>>>>>>> 5537ef552252d3d1f5fab056e1c4d6c2b0ccba4b
 #, python-brace-format
 msgid "You may not be part of more than {count} public groups."
 msgstr "Bạn không thể tham gia nhiều hơn {count} nhóm công khai."
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 #: judge/views/organization.py:589
 msgid "Leaving group"
@@ -3380,28 +3539,44 @@ msgstr "Rời nhóm"
 
 #: judge/views/organization.py:592
 >>>>>>> 500c5549e62aedf94e606ca4245483ffe26cd71e
+=======
+#: judge/views/organization.py:591
+msgid "Leaving group"
+msgstr "Rời nhóm"
+
+#: judge/views/organization.py:592
+>>>>>>> 5537ef552252d3d1f5fab056e1c4d6c2b0ccba4b
 #, python-format
 msgid "You are not in \"%s\"."
 msgstr "Bạn không ở trong \"%s\"."
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: judge/views/organization.py:616
 =======
 #: judge/views/organization.py:618
 >>>>>>> 500c5549e62aedf94e606ca4245483ffe26cd71e
+=======
+#: judge/views/organization.py:618
+>>>>>>> 5537ef552252d3d1f5fab056e1c4d6c2b0ccba4b
 #, python-format
 msgid "Request to join %s"
 msgstr "Đăng ký tham gia %s"
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: judge/views/organization.py:646
+=======
+#: judge/views/organization.py:648
+>>>>>>> 5537ef552252d3d1f5fab056e1c4d6c2b0ccba4b
 msgid "Join request detail"
 msgstr "Chi tiết đơn đăng ký"
 
-#: judge/views/organization.py:688
+#: judge/views/organization.py:690
 msgid "Manage join requests"
 msgstr "Quản lý đơn đăng ký"
 
+<<<<<<< HEAD
 #: judge/views/organization.py:692
 =======
 #: judge/views/organization.py:648
@@ -3414,15 +3589,22 @@ msgstr "Quản lý đơn đăng ký"
 
 #: judge/views/organization.py:694
 >>>>>>> 500c5549e62aedf94e606ca4245483ffe26cd71e
+=======
+#: judge/views/organization.py:694
+>>>>>>> 5537ef552252d3d1f5fab056e1c4d6c2b0ccba4b
 #, python-format
 msgid "Managing join requests for %s"
 msgstr "Quản lý đơn đăng ký cho %s"
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: judge/views/organization.py:732
 =======
 #: judge/views/organization.py:734
 >>>>>>> 500c5549e62aedf94e606ca4245483ffe26cd71e
+=======
+#: judge/views/organization.py:734
+>>>>>>> 5537ef552252d3d1f5fab056e1c4d6c2b0ccba4b
 #, python-format
 msgid ""
 "Your organization can only receive %d more members. You cannot approve %d "
@@ -3432,53 +3614,74 @@ msgstr ""
 "người."
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: judge/views/organization.py:750
 =======
 #: judge/views/organization.py:752
 >>>>>>> 500c5549e62aedf94e606ca4245483ffe26cd71e
+=======
+#: judge/views/organization.py:752
+>>>>>>> 5537ef552252d3d1f5fab056e1c4d6c2b0ccba4b
 #, python-format
 msgid "Approved %d user."
 msgid_plural "Approved %d users."
 msgstr[0] "Đã chấp thuận %d người."
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: judge/views/organization.py:753
 =======
 #: judge/views/organization.py:755
 >>>>>>> 500c5549e62aedf94e606ca4245483ffe26cd71e
+=======
+#: judge/views/organization.py:755
+>>>>>>> 5537ef552252d3d1f5fab056e1c4d6c2b0ccba4b
 #, python-format
 msgid "Rejected %d user."
 msgid_plural "Rejected %d users."
 msgstr[0] "Đã từ chối %d người."
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: judge/views/organization.py:793
 =======
 #: judge/views/organization.py:795
 >>>>>>> 500c5549e62aedf94e606ca4245483ffe26cd71e
+=======
+#: judge/views/organization.py:795
+>>>>>>> 5537ef552252d3d1f5fab056e1c4d6c2b0ccba4b
 #, python-format
 msgid "Add member for %s"
 msgstr "Thêm thành viên cho %s"
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: judge/views/organization.py:805
 =======
 #: judge/views/organization.py:807
 >>>>>>> 500c5549e62aedf94e606ca4245483ffe26cd71e
+=======
+#: judge/views/organization.py:807
+>>>>>>> 5537ef552252d3d1f5fab056e1c4d6c2b0ccba4b
 #, fuzzy
 #| msgid "Edited from site"
 msgid "Added members from site"
 msgstr "Chỉnh sửa từ web"
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: judge/views/organization.py:825 judge/views/organization.py:833
+=======
+#: judge/views/organization.py:827 judge/views/organization.py:835
+>>>>>>> 5537ef552252d3d1f5fab056e1c4d6c2b0ccba4b
 msgid "Can't kick user"
 msgstr "Không thể đuổi"
 
-#: judge/views/organization.py:826
+#: judge/views/organization.py:828
 msgid "The user you are trying to kick does not exist!"
 msgstr ""
 
+<<<<<<< HEAD
 #: judge/views/organization.py:834
 =======
 #: judge/views/organization.py:827 judge/views/organization.py:835
@@ -3491,28 +3694,40 @@ msgstr ""
 
 #: judge/views/organization.py:836
 >>>>>>> 500c5549e62aedf94e606ca4245483ffe26cd71e
+=======
+#: judge/views/organization.py:836
+>>>>>>> 5537ef552252d3d1f5fab056e1c4d6c2b0ccba4b
 #, python-format
 msgid "The user you are trying to kick is not in organization: %s."
 msgstr ""
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: judge/views/organization.py:855 judge/views/organization.py:1011
 =======
 #: judge/views/organization.py:857 judge/views/organization.py:1013
 >>>>>>> 500c5549e62aedf94e606ca4245483ffe26cd71e
+=======
+#: judge/views/organization.py:857 judge/views/organization.py:1013
+>>>>>>> 5537ef552252d3d1f5fab056e1c4d6c2b0ccba4b
 #, python-format
 msgid "Edit %s"
 msgstr "Chỉnh sửa %s"
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: judge/views/organization.py:883 templates/organization/search-form.html:19
+=======
+#: judge/views/organization.py:885 templates/organization/search-form.html:19
+>>>>>>> 5537ef552252d3d1f5fab056e1c4d6c2b0ccba4b
 msgid "Create group"
 msgstr "Tạo nhóm"
 
-#: judge/views/organization.py:898
+#: judge/views/organization.py:900
 msgid "Exceeded limit"
 msgstr ""
 
+<<<<<<< HEAD
 #: judge/views/organization.py:899
 =======
 #: judge/views/organization.py:885 templates/organization/search-form.html:19
@@ -3525,10 +3740,14 @@ msgstr ""
 
 #: judge/views/organization.py:901
 >>>>>>> 500c5549e62aedf94e606ca4245483ffe26cd71e
+=======
+#: judge/views/organization.py:901
+>>>>>>> 5537ef552252d3d1f5fab056e1c4d6c2b0ccba4b
 #, python-format
 msgid "You created too many groups. You can only create at most %d groups"
 msgstr ""
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 #: judge/views/organization.py:904 judge/views/organization.py:929
 #: judge/views/organization.py:1102
@@ -3544,10 +3763,19 @@ msgstr "Thêm từ web"
 
 #: judge/views/organization.py:922
 >>>>>>> 500c5549e62aedf94e606ca4245483ffe26cd71e
+=======
+#: judge/views/organization.py:906 judge/views/organization.py:931
+#: judge/views/organization.py:1104
+msgid "Added from site"
+msgstr "Thêm từ web"
+
+#: judge/views/organization.py:922
+>>>>>>> 5537ef552252d3d1f5fab056e1c4d6c2b0ccba4b
 #: templates/organization/org-right-sidebar.html:47
 msgid "Add contest"
 msgstr "Thêm kỳ thi"
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 #: judge/views/organization.py:963 judge/views/organization.py:1152
 msgid "Permission denied"
@@ -3561,16 +3789,27 @@ msgstr "Truy cập bị từ chối"
 
 #: judge/views/organization.py:966
 >>>>>>> 500c5549e62aedf94e606ca4245483ffe26cd71e
+=======
+#: judge/views/organization.py:965 judge/views/organization.py:1154
+msgid "Permission denied"
+msgstr "Truy cập bị từ chối"
+
+#: judge/views/organization.py:966
+>>>>>>> 5537ef552252d3d1f5fab056e1c4d6c2b0ccba4b
 #, fuzzy
 #| msgid "You are not allowed to edit this organization."
 msgid "You are not allowed to edit this contest"
 msgstr "Bạn không được phép chỉnh sửa tổ chức này."
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: judge/views/organization.py:1015 templates/blog/blog.html:31
 =======
 #: judge/views/organization.py:1017 templates/blog/blog.html:31
 >>>>>>> 500c5549e62aedf94e606ca4245483ffe26cd71e
+=======
+#: judge/views/organization.py:1017 templates/blog/blog.html:31
+>>>>>>> 5537ef552252d3d1f5fab056e1c4d6c2b0ccba4b
 #: templates/comments/content-list.html:53
 #: templates/comments/content-list.html:66
 #: templates/contest/contest-tabs.html:36 templates/contest/macros.html:14
@@ -3582,14 +3821,19 @@ msgid "Edit"
 msgstr "Chỉnh sửa"
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: judge/views/organization.py:1091
 =======
 #: judge/views/organization.py:1093
 >>>>>>> 500c5549e62aedf94e606ca4245483ffe26cd71e
+=======
+#: judge/views/organization.py:1093
+>>>>>>> 5537ef552252d3d1f5fab056e1c4d6c2b0ccba4b
 #, python-format
 msgid "Add blog for %s"
 msgstr "Thêm bài đăng cho %s"
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 #: judge/views/organization.py:1153
 msgid "Not allowed to edit this blog"
@@ -3603,15 +3847,26 @@ msgstr "Bạn không được phép chỉnh sửa bài đăng này."
 
 #: judge/views/organization.py:1187
 >>>>>>> 500c5549e62aedf94e606ca4245483ffe26cd71e
+=======
+#: judge/views/organization.py:1155
+msgid "Not allowed to edit this blog"
+msgstr "Bạn không được phép chỉnh sửa bài đăng này."
+
+#: judge/views/organization.py:1187
+>>>>>>> 5537ef552252d3d1f5fab056e1c4d6c2b0ccba4b
 #, python-format
 msgid "Edit blog %s"
 msgstr "Chỉnh sửa %s"
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: judge/views/organization.py:1232
 =======
 #: judge/views/organization.py:1234
 >>>>>>> 500c5549e62aedf94e606ca4245483ffe26cd71e
+=======
+#: judge/views/organization.py:1234
+>>>>>>> 5537ef552252d3d1f5fab056e1c4d6c2b0ccba4b
 #, python-format
 msgid "Pending blogs in %s"
 msgstr "Bài đang đợi duyệt trong %s"
@@ -4087,34 +4342,39 @@ msgid "Rejudge"
 msgstr "Chấm lại"
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: templates/base.html:144
+=======
+#: templates/base.html:143
+>>>>>>> 5537ef552252d3d1f5fab056e1c4d6c2b0ccba4b
 msgid "Chat"
 msgstr "Chat"
 
-#: templates/base.html:154
+#: templates/base.html:153
 msgid "Notification"
 msgstr "Thông báo"
 
-#: templates/base.html:181
+#: templates/base.html:180
 msgid "Dark Mode"
 msgstr ""
 
-#: templates/base.html:192 templates/profile-table.html:3
+#: templates/base.html:191 templates/profile-table.html:3
 msgid "Profile"
 msgstr "Trang cá nhân"
 
-#: templates/base.html:201
+#: templates/base.html:200
 msgid "Internal"
 msgstr "Nội bộ"
 
-#: templates/base.html:204
+#: templates/base.html:203
 msgid "Stats"
 msgstr "Thống kê"
 
-#: templates/base.html:208 templates/user/user-tabs.html:11
+#: templates/base.html:207 templates/user/user-tabs.html:11
 msgid "Bookmarks"
 msgstr "Đã lưu"
 
+<<<<<<< HEAD
 #: templates/base.html:215
 =======
 #: templates/base.html:143
@@ -4147,11 +4407,15 @@ msgstr "Đã lưu"
 
 #: templates/base.html:214
 >>>>>>> 500c5549e62aedf94e606ca4245483ffe26cd71e
+=======
+#: templates/base.html:214
+>>>>>>> 5537ef552252d3d1f5fab056e1c4d6c2b0ccba4b
 #, fuzzy
 #| msgid "Stop spectating"
 msgid "Stop impersonating"
 msgstr "Ngừng theo dõi"
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 #: templates/base.html:220
 msgid "Log out"
@@ -4165,27 +4429,39 @@ msgstr "Đăng xuất"
 
 #: templates/base.html:229
 >>>>>>> 500c5549e62aedf94e606ca4245483ffe26cd71e
+=======
+#: templates/base.html:219
+msgid "Log out"
+msgstr "Đăng xuất"
+
+#: templates/base.html:229
+>>>>>>> 5537ef552252d3d1f5fab056e1c4d6c2b0ccba4b
 #: templates/registration/password_reset_complete.html:4
 msgid "Log in"
 msgstr "Đăng nhập"
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: templates/base.html:231
+=======
+#: templates/base.html:230
+>>>>>>> 5537ef552252d3d1f5fab056e1c4d6c2b0ccba4b
 msgid "Sign up"
 msgstr "Đăng ký"
 
-#: templates/base.html:245
+#: templates/base.html:244
 msgid "spectating"
 msgstr "đang theo dõi"
 
-#: templates/base.html:257 templates/contest/list.html:110
+#: templates/base.html:256 templates/contest/list.html:110
 msgid "In contest"
 msgstr "Trong kỳ thi"
 
-#: templates/base.html:259
+#: templates/base.html:258
 msgid "Out contest"
 msgstr "Ngoài kỳ thi"
 
+<<<<<<< HEAD
 #: templates/base.html:266
 =======
 #: templates/base.html:230
@@ -4206,6 +4482,9 @@ msgstr "Ngoài kỳ thi"
 
 #: templates/base.html:265
 >>>>>>> 500c5549e62aedf94e606ca4245483ffe26cd71e
+=======
+#: templates/base.html:265
+>>>>>>> 5537ef552252d3d1f5fab056e1c4d6c2b0ccba4b
 msgid "This site works best with JavaScript enabled."
 msgstr ""
 
@@ -4635,10 +4914,14 @@ msgid "Name"
 msgstr "Tên"
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: templates/contest/list.html:57 templates/contest/media-js.html:152
 =======
 #: templates/contest/list.html:57 templates/contest/media-js.html:116
 >>>>>>> 500c5549e62aedf94e606ca4245483ffe26cd71e
+=======
+#: templates/contest/list.html:57 templates/contest/media-js.html:116
+>>>>>>> 5537ef552252d3d1f5fab056e1c4d6c2b0ccba4b
 msgid "Are you sure you want to join?"
 msgstr "Bạn có chắc tham gia?"
 
@@ -4651,10 +4934,14 @@ msgstr ""
 "sau đó."
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: templates/contest/list.html:60 templates/contest/media-js.html:155
 =======
 #: templates/contest/list.html:60 templates/contest/media-js.html:119
 >>>>>>> 500c5549e62aedf94e606ca4245483ffe26cd71e
+=======
+#: templates/contest/list.html:60 templates/contest/media-js.html:119
+>>>>>>> 5537ef552252d3d1f5fab056e1c4d6c2b0ccba4b
 msgid "By joining in this contest, you will automatically leave contest"
 msgstr "Khi tham gia kỳ thi này, bạn sẽ tự động rời khỏi kỳ thi"
 
