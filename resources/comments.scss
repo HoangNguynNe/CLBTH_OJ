@@ -262,7 +262,6 @@ a {
     display: flex;
 
     .actionbar-button {
-        transition: 0.3s all ease;
         cursor: pointer;
         padding: 0.8em;
         border-radius: .5em;
@@ -283,13 +282,7 @@ a {
         border-radius: .5em 0 0 .5em;
     }
     .actionbar-button:hover {
-        color: #ffffff;
-        background: #008cff;
-        border: 1px solid #008cff;
-        text-shadow: 0 0 5px #ffffff, 0 0 10px #ffffff, 0 0 20px #ffffff;
-        box-shadow: 0 0 5px #008cff, 0 0 20px #008cff, 0 0 50px #008cff,
-        0 0 100px #008cff;
-        transition: 0.3s all ease;
+        background: darkgray;
     }
     .dislike-button {
         padding-left: 0.5em;
@@ -307,16 +300,6 @@ a {
     }
     .bookmarked {
         color: rgb(180, 180, 7);
-    }
-
-    .dislike-button:hover{
-        color: #ffffff;
-        background: #A60321;
-        border: 1px solid #A60321;
-        text-shadow: 0 0 5px #ffffff, 0 0 10px #ffffff, 0 0 20px #ffffff;
-        box-shadow: 0 0 5px #A60321, 0 0 20px #A60321, 0 0 50px #A60321,
-        0 0 100px #A60321;
-        transition: 0.3s all ease;
     }
 }
 
